@@ -1,3 +1,5 @@
-// Place your Spring DSL code here
+import pdi.cors.CorsFilter
+
 beans = {
+    corsFilter(CorsFilter)
 }
